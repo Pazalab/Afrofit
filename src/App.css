@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Junge&family=Rubik+Burned&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+     --main-color: #9f4818;
+     --secondary-color: #e5821b;
+     --auxiliary-color: #e0a772;
+     --regular-font: "Junge", cursive;
+     --logo-font: "Rubik Burned", system-ui;
+     --bold-font: "Railey", cursive;
+}
+
+body{
+     font-family: var(--regular-font);
+     background: #f7ebe093;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+}
+
+input,
+textarea,
+button,
+select{
+     border: none;
+     outline: none;
+     font-family: var(--regular-font);
+}
+
+img,
+video{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.inner-row{
+     width: 1275px;
+     margin: auto;
+}
+
+.header-content{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 0;
+}
+
+.header-content .logo{
+     width: 180px;
+}
+
+.header-content nav ul{
+     display: flex;
+     gap: 30px;
+}
+.header-content nav ul li a{
+     font-size: 16px;
+     cursor: pointer;
+}
+.header-content nav ul li a.active,
+.header-content nav ul li a:hover{
+     color: var(--main-color);
+     font-weight: 600;
+}
+
+.header-actions{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+.header-actions a{
+     width: 160px;
+     height: 50px;
+     background: var(--main-color);
+     color: #fff;
+     border-radius: 5px;
+     font-size: 15px;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+
+.language-switch{
+     padding: 5px 10px;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     background: rgb(238, 231, 223);
+}
+.switch-moja{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     cursor: pointer;
+}
+.switch-moja img{
+     width: 20px;
+     height: 20px;
+     display: flex;
+}
+.switch-moja span{
+     font-size: 12px;
+     display: flex;
+     margin-top: 2px;
+     font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1290px){
+      .inner-row{
+           width: 90%;
+      }
+}
