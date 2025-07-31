@@ -10,7 +10,8 @@ import { french } from './data/language'
 function App() {
   const [language, setLanguage ] = useState({
         id: localStorage.getItem("langID") ? JSON.parse(localStorage.getItem("langID")) : "FR",
-        data: localStorage.getItem("language") ? JSON.parse(localStorage.getItem("language")) : french
+        data: localStorage.getItem("language") ? JSON.parse(localStorage.getItem("language")) : french,
+        //data: french
   });
 
   return (
