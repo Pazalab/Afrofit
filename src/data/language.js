@@ -58,7 +58,86 @@ export const french = {
                                text: "Nos créations équilibrent l'expression africaine audacieuse avec la fonctionnalité quotidienne : une beauté que vous pouvez porter, dans laquelle vous pouvez vivre et en laquelle vous pouvez croire.."
                           }
                      }
-               }
+               },
+                about: {
+                      body: {
+                           title: "Embrasser le patrimoine africain à travers un artisanat et un design innovants.",
+                           description: ["Nous nous engageons à façonner de manière innovante les matières premières africaines pour créer des pièces exceptionnelles qui célèbrent le patrimoine, l'identité et l'expression personnelle. Chaque création est fabriquée à la main avec un objectif précis, réinventant la richesse de la culture africaine à travers un design audacieux et un savoir-faire artisanal soigné.", "Nous fabriquons soigneusement chaque pièce avec un engagement envers la durabilité et l'authenticité, garantissant que ce que vous portez ou affichez est à la fois significatif et fabriqué de manière responsable."]
+                      },
+                      mission: {
+                            title: "Notre Mission",
+                            text: "Pour donner du pouvoir aux artisans qualifiés à travers l'Afrique tout en offrant une touche dynamique qui correspond à votre identité."
+                      },
+                      vision: {
+                           title: "Notre vision",
+                           text: "Inspirer l’appréciation mondiale du patrimoine africain à travers nos créations."
+                      }
+               },
+              capabilitySection: {
+                      intro: {
+                             title: "L'art de vivre africain",
+                             description: ["Chez Afrofit, notre objectif est d'intégrer l'esprit africain dans tous les aspects de votre vie, de vos tenues à votre style de vie. Nous allions beauté, tradition et fonctionnalité au quotidien pour créer des pièces artisanales qui subliment votre style et vos espaces de vie.", "Explorez nos diverses catégories d'artisanat ci-dessous et si vous recherchez quelque chose d'unique, contactez-moi - je serai honoré de donner vie à votre inspiration."],
+                             link: "Entrer en contact"
+                      },
+                      listings: [
+                             {
+                                 id: 0,
+                                 title: "Tissu",
+                                 text: "Imprimés et textiles africains de haute qualité, parfaits pour des créations personnalisées ou des accents de décoration.",
+                                 icon: "/icons/fabric.png"
+                             },
+                             {
+                                 id: 1,
+                                 title: "sacs à main",
+                                 text: "Sacs audacieux et fabriqués à la main avec des tissus africains vibrants — fonctionnels, élégants et pleins de personnalité.",
+                                 icon: "/icons/handbags.png"
+                             },
+                             {
+                                 id: 2,
+                                 title: "Sous-verres et bocaux",
+                                 text: "Des pièces de table magnifiquement détaillées qui allient praticité et design d'inspiration afro.",
+                                 icon: "/icons/pottery.png"
+                             },
+                             {
+                                 id: 3,
+                                 title: "Robes Ankara",
+                                 text: "Des robes saisissantes et sur mesure fabriquées à partir de tissu Ankara authentique, conçues pour célébrer votre style et votre héritage.",
+                                 icon: '/icons/dress.png'
+                             },
+                             {
+                                id: 4,
+                                title: "Bijoux Africains",
+                                text: "Des accessoires uniques faits à la main qui racontent une histoire — fabriqués à partir de perles, de laiton et d'éléments naturels.",
+                                icon: '/icons/necklace.png'
+                             },
+                             {
+                                id: 5,
+                                title: "Chaussures et sandales",
+                                text: "Des chaussures confortables et créatives, conçues avec des motifs traditionnels et une touche moderne.",
+                                icon: "/icons/sandals.png"
+                             },
+                             {
+                                id: 6, 
+                                title: "Décoration intérieure",
+                                text: "Des housses de coussin aux œuvres d'art murales, notre décoration artisanale apporte chaleur, texture et culture à vos espaces de vie.",
+                                icon: "/icons/interior.png"
+                             },
+                             {
+                              id: 7,
+                              title: "Pièces personnalisées",
+                              text: "Vous avez une vision ? Nous la concrétisons. Du concept à la réalisation, nous adaptons chaque pièce à votre projet et à vos besoins.",
+                              icon: "/icons/customization.png"
+                             }
+                      ]
+               },
+              showcase: {
+                     intro: {
+                           secIntro: "Vitrine",
+                           title: "Collection en vedette",
+                           description: "Découvrez notre sélection de produits phares conçus pour sublimer votre espace et votre style. Du style chic à la mode personnalisée, trouvez la pièce idéale pour exprimer votre personnalité.",
+                           linkText: "Entrer en contact"
+                     }
+               },
            }
       }
 }
@@ -122,6 +201,85 @@ export const english = {
                                title: "Where Creativity meets Purpose",
                                text: "Our designs balance bold African expression with everyday function, beauty you can wear, live in and believe in."
                           }
+                     }
+               },
+               about: {
+                      body: {
+                           title: "Embracing African Heritage through Innovative Craftmanship and Design.",
+                           description: ["We are dedicated to innovatively shaping raw African materials into stunning pieces that celebrate heritage, identity, and self-expression. Every creation is handcrafted with purpose, reimagining the richness of African culture through bold design and intentional craftsmanship.", "We thoughtfully craft each piece with a commitment to sustainability and authenticity, ensuring that what you wear or display is both meaningful and responsibly made."]
+                      },
+                      mission: {
+                            title: "Our Mission",
+                            text: "To empower skilled artisans across Africa while delivering a vibrant touch that match your identity."
+                      },
+                      vision: {
+                           title: "Our Vision",
+                           text: "To inspire global appreciation for African Heritage through our creations."
+                      }
+               },
+               capabilitySection: {
+                      intro: {
+                             title: "The Art of African Living",
+                             description: ["Our aim at Afrofit is to bring the spirit of Africa into every aspect of your life, from what you wear to how you live. We blend beauty, tradition, and everyday function to create handcrafted pieces that elevate both your personal style and your living spaces.", "Explore our diverse craft categories below and if you're seeking something uniquely your's, reach out — we’ll be honored to bring your inspiration to life."],
+                             link: "Get in touch"
+                      },
+                      listings: [
+                             {
+                                 id: 0,
+                                 title: "Fabric",
+                                 text: "High-quality African prints and textiles, perfect for custom creations or décor accents.",
+                                 icon: "/icons/fabric.png"
+                             },
+                             {
+                                 id: 1,
+                                 title: "Handbags",
+                                 text: "Bold, handcrafted bags made with vibrant African fabrics — functional, stylish, and full of personality.",
+                                 icon: "/icons/handbags.png"
+                             },
+                             {
+                                 id: 2,
+                                 title: "Coasters & Jars",
+                                 text: "Beautifully detailed table pieces that blend practicality with Afro-inspired design.",
+                                 icon: "/icons/pottery.png"
+                             },
+                             {
+                                 id: 3,
+                                 title: "Ankara Dresses",
+                                 text: "Striking, tailored dresses made from authentic Ankara fabric — made to celebrate your style and heritage.",
+                                 icon: '/icons/dress.png'
+                             },
+                             {
+                                id: 4,
+                                title: "African Jewelry",
+                                text: "Unique, handmade accessories that tell a story — crafted from beads, brass, and natural elements.",
+                                icon: '/icons/necklace.png'
+                             },
+                             {
+                                id: 5,
+                                title: "Shoes & Sandals",
+                                text: "Comfortable and creative footwear, designed with traditional patterns and modern flair",
+                                icon: "/icons/sandals.png"
+                             },
+                             {
+                                id: 6, 
+                                title: "Interior decor",
+                                text: 'From cushion covers to wall art, our handcrafted décor brings warmth, texture, and culture to your living spaces.',
+                                icon: "/icons/interior.png"
+                             },
+                             {
+                              id: 7,
+                              title: "Customized Pieces",
+                              text: "Got a vision? We bring it to life. From concept to craft, we tailor every piece to your task and purpose.",
+                              icon: "/icons/customization.png"
+                             }
+                      ]
+               },
+               showcase: {
+                     intro: {
+                           secIntro: "Showcase",
+                           title: "Featured Collection",
+                           description: "Explore our curated selection of best selling products designed to elevate your space and style. From chic home look to customized fashion items, find the piece you need to express yourself.",
+                           linkText: "Get in touch"
                      }
                }
            }

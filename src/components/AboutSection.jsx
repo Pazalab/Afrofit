@@ -1,0 +1,44 @@
+import { useContext } from "react"
+import about from "../assets/about.jpg"
+import about2 from "../assets/about2.jpg"
+import about3 from "../assets/about3.jpg"
+import { languageContext } from "./common/languageContext"
+const AboutSection = () => {
+    const [ language ] = useContext(languageContext);
+
+  return (
+    <div className="about-section">
+              <div className="inner-row">
+                        <div className="about-section-content">
+                                    <div className="about-section-col">
+                                              <img src={about} alt="" className="large-image" />
+                                              <div className="about-section-split">
+                                                       <div className="about-split-texts">
+                                                                 <div className="statement-moja">
+                                                                          <h3>{language.data.pages.home.about.mission.title}</h3>
+                                                                          <p>{language.data.pages.home.about.mission.text}</p>
+                                                                 </div>
+                                                                 <div className="statement-moja">
+                                                                             <h3>{language.data.pages.home.about.vision.title}</h3>
+                                                                             <p>{ language.data.pages.home.about.vision.text}</p>
+                                                                 </div>
+                                                       </div>
+                                                       <img src={about3} alt="" />
+                                              </div>
+                                  </div>
+                                  <div className="about-section-col">
+                                             <div className="about-section-texts">
+                                                        <h2>{ language.data.pages.home.about.body.title}</h2>
+                                                        <p>{ language.data.pages.home.about.body.description[0]}</p>
+                                                        <p>{ language.data.pages.home.about.body.description[1]}</p>
+                                             </div>
+                                             <img src={about2} alt="" className="extra-image" />
+                                  </div>
+
+                        </div>
+              </div>
+    </div>
+  )
+}
+
+export default AboutSection
