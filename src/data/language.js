@@ -8,7 +8,7 @@ export const french = {
                { name: "Maison", link: "home"},
                { name: "Apropos", link: "about"},
                { name: "Capacités", link: "capabilities"},
-               { name: "Artisans", link: "artisans"},
+               { name: "Vitrine", link: "showcase"},
            ],
            action: "Entrer en contact"
       },
@@ -138,6 +138,11 @@ export const french = {
                            linkText: "Entrer en contact"
                      }
                },
+               artisans: {
+                     intro: "Rencontrez l'équipe Craft Crew qui propulse Afrofit",
+                     description: "Au cœur d'Afrofit se trouve un collectif d'artisans qualifiés, véritables artistes derrière chaque point, tissage et création. Ces personnes talentueuses ne sont pas seulement des créateurs ; elles sont l'âme de notre marque, alliant tradition et créativité pour créer des pièces riches de culture et de sens. Profondément attachés à l'excellence, ils appliquent les normes de qualité les plus strictes, traitant chaque création comme un chef-d'œuvre. Leurs mains façonnent plus que du tissu : elles façonnent des histoires."
+               },
+
            }
       }
 }
@@ -152,7 +157,7 @@ export const english = {
                { name: "Home", link: "home"},
                { name: "About Us", link: "about"},
                { name: "Capabilities", link: "capabilities"},
-               { name: "Artisans", link: "artisans"},
+               { name: "Showcase", link: "showcase"},
            ],
            action: "Get in Touch"
       },
@@ -281,7 +286,11 @@ export const english = {
                            description: "Explore our curated selection of best selling products designed to elevate your space and style. From chic home look to customized fashion items, find the piece you need to express yourself.",
                            linkText: "Get in touch"
                      }
-               }
+               },
+              artisans: {
+                     intro: "Meet the Craft Crew Powering Afrofit",
+                     description: "At the heart of Afrofit is a collective of skilled artisans — the real artists behind every stitch, weave, and design. These talented individuals are not just makers; they are the soul of our brand, blending tradition with creativity to produce pieces rich in culture and meaning. With a deep commitment to excellence, they uphold the highest standards of quality among themselves, treating each creation as a masterpiece. Their hands shape more than fabric — they shape stories."
+               },
            }
       }
 }

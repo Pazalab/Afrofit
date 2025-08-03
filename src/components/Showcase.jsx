@@ -39,17 +39,17 @@ const Showcase = () => {
                                               <img src={product1} alt="" />
                                               <img src={product2} alt="" />
                                               <img src={product3} alt="" />
-                                              <img src="" alt="" />
+                                              <img src="product" alt="" />
                                               <img src={product5} alt="" />
                                               <img src={product6} alt="" />
                                               <img src={product7} alt="" />
                                               <img src={product4} alt="" />
                                               <img src={product8} alt="" />
-                                              <img src="" alt="" />
+                                              <img src="product" alt="" />
                                               <img src={product9} alt="" />
                                               <img src={product10} alt="" />
                                               <img src={product11} alt="" />
-                                              <img src={""} alt="" />
+                                              <img src={"product"} alt="" />
                                               <img src={product12} alt="" />
                                               <img src={product13} alt="" />
                                      </div>
