@@ -3,6 +3,7 @@ import ArtisansSection from "../components/ArtisansSection.jsx"
 import BenefitsSection from "../components/BenefitsSection"
 import Capabilities from "../components/Capabilities"
 import Navbar from "../components/common/navigation/Navbar"
+import FaqSection from "../components/FaqSection.jsx"
 import HeroSection from "../components/HeroSection"
 import Showcase from "../components/Showcase.jsx"
 import Testimonials from "../components/Testimonials.jsx"
@@ -28,6 +29,7 @@ const Home = () => {
                   <ArtisansSection />
           </Element>
           <Testimonials />
+          <FaqSection />
     </>
   )
 }

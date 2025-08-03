@@ -1,18 +1,74 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { IoStar } from "react-icons/io5";
+import "swiper/css"
+import { useContext, useState } from "react";
+import { Autoplay } from 'swiper/modules';
+import { languageContext } from "./common/languageContext";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 const Testimonials = () => {
+  const [ language ] = useContext(languageContext);
+  const [ swiperRef, setSwiperRef ] = useState();
   return (
     <div className="testimonials-section">
               <div className="inner-row">
                         <div className="testimonials-section-content">
                                    <div className="testimonials-intro">
-                                             <h3>Testimonials</h3>
-                                             <h2>Experiences to Cherish</h2>
-                                             <p>Every Afrofit piece carries a story — not just of culture and craftsmanship, but of the people who wear and live with them. From heartfelt custom orders to home transformations, our customers share how Afrofit has become part of their journey. Here are some of the experiences that continue to inspire us every day.</p>
+                                             <h3>{ language.data.pages.home.testimonials.intro.text}</h3>
+                                             <h2>{ language.data.pages.home.testimonials.intro.title}</h2>
+                                             <p>{language.data.pages.home.testimonials.intro.description}</p>
                                    </div>
 
                                    <div className="testimonials-slider">
                                               <div className="testimonials-grayed"></div>
-                                              
+                                               <div className="testimonial-btns">
+                                                        <button onClick={() => swiperRef.slidePrev()}><span><BsArrowLeft /></span></button>
+                                                        <button onClick={() => swiperRef.slideNext()}><span><BsArrowRight /></span></button>
+                                               </div>
+                                               <Swiper
+                                                       slidesPerView={1}
+                                                       spaceBetween={30}
+                                                       loop={true}
+                                                       speed={1000}
+                                                       autoplay={{
+                                                            delay: 10000,
+                                                            disableOnInteraction: false
+                                                       }}
+                                                       breakpoints={{
+                                                            1090: {
+                                                                  slidesPerView: 2
+                                                            }
+                                                       }}
+                                                       modules={[Autoplay]}
+                                                       onSwiper={(swiper) => setSwiperRef(swiper)}
+                                                       className="myswiper"
+                                               >
+                                                   {
+                                                       language.data.pages.home.testimonials.listings.map(item => (
+                                                          <SwiperSlide key={item.id}>
+                                                                  <div className="testimonial-moja">
+                                                                        <div className="testimonial-header">
+                                                                                   <div className="testimonial-profile-column">
+                                                                                             <img src={item.image} alt="" />
+                                                                                             <div className="profile-name">
+                                                                                                       <h3>{item.name}</h3>
+                                                                                                       <p>{item.location}</p>
+                                                                                             </div>
+                                                                                   </div>
+                                                                                   <div className="testimonial-rating">
+                                                                                          <span><IoStar /></span>
+                                                                                          <span><IoStar /></span>
+                                                                                          <span><IoStar /></span>
+                                                                                          <span><IoStar /></span>
+                                                                                          <span><IoStar /></span>
+                                                                                  </div>
+                                                                        </div>
+                                                                        <p>{item.body}</p>
+                                                                </div>
+                                                        </SwiperSlide>
+                                                       ))
+                                                   }
+                                               </Swiper>
                                    </div>
                         </div>
               </div>
