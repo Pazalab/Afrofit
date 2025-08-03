@@ -63,13 +63,13 @@ const Sidebar = () => {
                       <div className="sidebar-nav">
                               <ul>
                                       { language.data.header.nav.map(item =>
-                                           <li key={item.link}>
-                                                 <Link to={item.link} activeClass="active" spy={true} smooth={true}>
+                                           <li key={item.link} onClick={handleSidebarClose}>
+                                                 <Link to={item.link} offset={-80}  activeClass="active" spy={true} smooth={true}>
                                                        {item.name}
                                                  </Link>
                                            </li>
                                       )}            
-                                      <li><Link to="contact">{language.data.header.action}</Link></li>
+                                      <li><Link to="contact" smooth={true}>{language.data.header.action}</Link></li>
                               </ul>
                       </div>
              </div>

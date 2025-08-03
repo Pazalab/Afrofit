@@ -185,6 +185,70 @@ export const french = {
                               body: "J'ai décoré tout mon espace de vie avec des pièces Afrofit, et la transformation a été incroyable. Les couleurs, les motifs et les détails faits main ont apporté une touche chaleureuse et pleine d'âme à ma maison. C'est désormais un espace qui raconte une histoire, et j'adore voir les gens s'y identifier dès qu'ils y entrent."
                          }
                     ]
+               },
+              faqs: {
+                    intro: {
+                          title: "Tous les détails, expliqués",
+                          description: "Trouvez des réponses rapides aux questions les plus courantes sur nos services et processus."
+                    },
+                    listings: [
+                         {
+                              id: 0,
+                              question: "Quel genre de produits proposez-vous ?",
+                              answer: "Nous proposons une large gamme d'articles africains fabriqués à la main, notamment des vêtements, des sacs à main, des bijoux, des articles de décoration intérieure, des sandales, des sous-verres, des bocaux et des pièces conçues sur mesure adaptées à votre style et à votre espace."
+                         },
+                         {
+                              id: 1, 
+                              question: "Can I request a custom design?",
+                              answer: "Absolument ! Nous sommes spécialisés dans les créations personnalisées. Qu'il s'agisse d'une tenue unique, d'un objet de décoration ou d'un accessoire, notre équipe travaillera en étroite collaboration avec vous pour donner vie à votre vision."
+                         },
+                         {
+                              id: 2,
+                              question: "Combien de temps faut-il pour traiter et livrer une commande?",
+                              answer: "Le délai de traitement dépend de la complexité de votre demande. Les commandes personnalisées nécessitent généralement 7 à 14 jours ouvrés pour être traitées, suivies de l'expédition. Nous vous tiendrons informés à chaque étape."
+                         },
+                         {
+                              id: 3,
+                              question: "Expédiez-vous à l’international?",
+                              answer: "Oui, nous expédions fièrement nos articles artisanaux dans le monde entier. Les frais et délais de livraison varient selon votre localisation et le volume de votre commande.."
+                         },
+                         {
+                              id: 4,
+                              question: "Quels matériaux utilisez-vous?",
+                              answer: "Nous utilisons des tissus africains de haute qualité, d'origine éthique, des matériaux naturels et des éléments fabriqués localement pour garantir l'authenticité, la durabilité et la durabilité de chaque pièce."
+                         },
+                         {
+                              id: 5,
+                              question: "Comment démarrer une commande personnalisée?",
+                              answer: "Contactez-nous simplement via notre site web ou nos réseaux sociaux pour nous faire part de votre idée ou inspiration. Notre équipe vous accompagnera tout au long du processus de création, confirmera vos préférences et commencera à créer votre pièce unique."
+                         }
+                    ]
+               },
+               contact: {
+                     intro: {
+                           title: "Contactez-nous",
+                           description: "Vous avez une question ou une idée personnalisée en tête ? Contactez-nous par message. Besoin d'informations ou d'une création sur mesure ? Nous sommes là pour vous aider."
+                     },
+                     form: {
+                           name: {
+                                 label: "Nom",
+                                 placeholder: "Entrez votre nom",
+                           },
+                           email: {
+                                label: "Email",
+                                placeholder: "Entrez votre email"
+                           },
+                           message: {
+                                 label: "Message",
+                                 placeholder: "Entrez votre message ou votre demande"
+                           },
+                           btn: {
+                                text: "Envoyer un message"
+                           }
+                     }
+               },
+               copyright: {
+                     text: "Tous droits réservés"
                }
            }
       }
@@ -377,6 +441,70 @@ export const english = {
                               body: "I decorated my entire living space with Afrofit pieces, and the transformation was incredible. The colors, patterns, and handmade details brought a warm, soulful feel into my home. It’s now a space that tells a story — and I love watching people connect with it the moment they walk in."
                          }
                     ]
+               },
+               faqs: {
+                    intro: {
+                          title: "All the Details, Explained",
+                          description: "Find quick answers to the most common questions about our services and process."
+                    },
+                    listings: [
+                         {
+                              id: 0,
+                              question: "What kind of products do you offer?",
+                              answer: "We offer a wide range of handcrafted African items including clothing, handbags, jewelry, home décor, sandals, coasters, jars, and custom-designed pieces tailored to your style and space."
+                         },
+                         {
+                              id: 1, 
+                              question: "Can I request a custom design?",
+                              answer: "Absolutely! We specialize in personalized creations. Whether it’s a unique outfit, décor piece, or accessory, our team will work closely with you to bring your vision to life."
+                         },
+                         {
+                              id: 2,
+                              question: "How long does it take to process and deliver an order?",
+                              answer: "Processing time depends on the complexity of your request. Custom orders typically take 7–14 business days to complete, followed by shipping. We’ll keep you updated every step of the way."
+                         },
+                         {
+                              id: 3,
+                              question: "Do you ship internationally?",
+                              answer: "Yes, we proudly ship our handcrafted items worldwide. Shipping costs and delivery timelines will vary based on your location and order size."
+                         },
+                         {
+                              id: 4,
+                              question: "What materials do you use?",
+                              answer: "We use high-quality, ethically sourced African fabrics, natural materials, and locally crafted elements to ensure authenticity, sustainability, and durability in every piece."
+                         },
+                         {
+                              id: 5,
+                              question: "How do I get started with a custom order?",
+                              answer: "Simply contact us through our website or social medial channels with your idea or inspiration. Our team will guide you through the design process, confirm your preferences, and begin crafting your unique piece."
+                         }
+                    ]
+               },
+             contact: {
+                     intro: {
+                           title: "Contact Us",
+                           description: "Got a question or a custom idea in mind? We’re just a message away. Whether you need info or want something made just for you, we’re here to make it happen."
+                     },
+                     form: {
+                           name: {
+                                 label: "Name",
+                                 placeholder: "Enter your name",
+                           },
+                           email: {
+                                label: "Email",
+                                placeholder: "Enter your email"
+                           },
+                           message: {
+                                 label: "Message",
+                                 placeholder: "Enter your message or inquiry"
+                           },
+                           btn: {
+                                text: "Submit Message"
+                           }
+                     }
+               },
+               copyright: {
+                     text: "All rights reserved"
                }
            }
       }

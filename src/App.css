@@ -88,7 +88,6 @@ header.scrolled{
 }
 .header-content nav ul li a.active,
 .header-content nav ul li a:hover,
-.header-content nav ul li:first-child a,
 .sidebar-nav ul li a.active,
 .sidebar-nav ul li a:hover{
      color: var(--main-color);
@@ -243,21 +242,52 @@ header.scrolled{
 }
 
 
+.footer{
+     padding: 30px 0;
+     border-top: 1px solid rgba(181, 173, 159, 0.2);
+     background: #1e0e05;
+}
+.footer-content{
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+     align-items: center;
+}
+.footer-content p{
+     color: gainsboro;
+     font-size: 13px;
+}
 
+.footer-social-links ul{
+     display: flex;
+     align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-social-links ul li a{
+     display: flex;
+     color: white;
+     width: 35px;
+     height: 35px;
+     border-radius: 40px;
+     -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+     -ms-border-radius: 40px;
+     -o-border-radius: 40px;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.5s ease;
+     -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+     -o-transition: all 0.5s ease;
+}
+.footer-social-links ul li a span{
+     display: flex;
+}
+.footer-social-links ul li a:hover{
+     background: whitesmoke;
+     color: var(--main-color);
+}
 
 
 
@@ -283,4 +313,10 @@ header.scrolled{
       .header-actions a{
             display: none;
       }
+}
+
+@media (max-width: 550px) {
+     .footer-content{
+          flex-direction: column;
+     }
 }

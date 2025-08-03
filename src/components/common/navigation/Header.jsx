@@ -49,7 +49,7 @@ const Header = () => {
                                        <ul>
                                              { language.data.header.nav.map(item =>
                                                   <li key={item.link}>
-                                                        <Link to={item.link} offset={-100}  activeClass="active" spy={true} smooth={true}>
+                                                        <Link to={item.link} offset={-80}  activeClass="active" spy={true} smooth={true}>
                                                               {item.name}
                                                         </Link>
                                                   </li>
@@ -57,7 +57,7 @@ const Header = () => {
                                        </ul>
                                </nav>
                                <div className="header-actions">
-                                        <Link to="contact">{language.data.header.action}</Link>
+                                        <Link to="contact" smooth={true}>{language.data.header.action}</Link>
 
                                         <div className="language-switch" onClick={() => handleLanguageChange(language.id === "FR" ? "ENG" : "FR")}>
                                                   { language.id === "FR" ? (

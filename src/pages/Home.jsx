@@ -2,7 +2,9 @@ import AboutSection from "../components/AboutSection"
 import ArtisansSection from "../components/ArtisansSection.jsx"
 import BenefitsSection from "../components/BenefitsSection"
 import Capabilities from "../components/Capabilities"
+import Footer from "../components/common/Footer.jsx"
 import Navbar from "../components/common/navigation/Navbar"
+import ContactSection from "../components/ContactSection.jsx"
 import FaqSection from "../components/FaqSection.jsx"
 import HeroSection from "../components/HeroSection"
 import Showcase from "../components/Showcase.jsx"
@@ -30,6 +32,10 @@ const Home = () => {
           </Element>
           <Testimonials />
           <FaqSection />
+          <Element name="contact">
+                    <ContactSection />
+                    <Footer />
+          </Element>
     </>
   )
 }
