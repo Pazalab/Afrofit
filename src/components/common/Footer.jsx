@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="footer">
               <div className="inner-row">
                       <div className="footer-content">
-                                <p>{language.data.pages.home.copyright.text} &copy; { new Date().getFullYear() } Afrofit Africa</p>
+                                <p>{language.data.pages.home.copyright.text} &copy; { new Date().getFullYear() } Afro'Fit Africa</p>
                                 <div className="footer-social-links">
                                          <ul>
                                                  <li><Link to={"/"}><span><GrFacebookOption /></span></Link></li>

@@ -1,6 +1,6 @@
 export const french = {
       site_identity: {
-             title: "Afrofit",
+             title: "Afro'Fit",
              tagline: "Préserver le patrimoine africain",
       },
       header: {
@@ -24,13 +24,13 @@ export const french = {
                               "Luxe",
                               "Héritage"
                          ],
-                         text: "Chez Afrofit, nous créons bien plus que des vêtements et de la décoration — nous insufflons culture et créativité dans le quotidien. Des tenues africaines sur mesure aux objets de décoration vibrants et accessoires porteurs de sens, chaque pièce rend hommage à la tradition et à l’expression personnelle."
+                         text: "Chez Afro'Fit, nous créons bien plus que des vêtements et de la décoration — nous insufflons culture et créativité dans le quotidien. Des tenues africaines sur mesure aux objets de décoration vibrants et accessoires porteurs de sens, chaque pièce rend hommage à la tradition et à l’expression personnelle."
                     }
                },
               benefits: {
                      intro: {
                            title: "Ce qui nous distingue",
-                           description: "Afrofit est la rencontre entre l'art africain et le design intentionnel. Chaque pièce fabriquée à la main s'inspire des histoires, des rythmes et des couleurs de l'Afrique. Elle est personnalisée et réalisée par des artisans qualifiés qui imprègnent chaque détail de culture, d'identité et de cœur."
+                           description: "Afro'Fit est la rencontre entre l'art africain et le design intentionnel. Chaque pièce fabriquée à la main s'inspire des histoires, des rythmes et des couleurs de l'Afrique. Elle est personnalisée et réalisée par des artisans qualifiés qui imprègnent chaque détail de culture, d'identité et de cœur."
                      },
                      listings: {
                           one: {
@@ -39,7 +39,7 @@ export const french = {
                           },
                           two: {
                                title: "Une qualité sans compromis",
-                               text: "Afrofit propose des pièces intemporelles conçues pour durer."
+                               text: "Afro'Fit propose des pièces intemporelles conçues pour durer."
                           },
                           three: {
                                 title: "Ici quand vous avez besoin de nous",
@@ -76,7 +76,7 @@ export const french = {
               capabilitySection: {
                       intro: {
                              title: "L'art de vivre africain",
-                             description: ["Chez Afrofit, notre objectif est d'intégrer l'esprit africain dans tous les aspects de votre vie, de vos tenues à votre style de vie. Nous allions beauté, tradition et fonctionnalité au quotidien pour créer des pièces artisanales qui subliment votre style et vos espaces de vie.", "Explorez nos diverses catégories d'artisanat ci-dessous et si vous recherchez quelque chose d'unique, contactez-moi - je serai honoré de donner vie à votre inspiration."],
+                             description: ["Chez Afro'Fit, notre objectif est d'intégrer l'esprit africain dans tous les aspects de votre vie, de vos tenues à votre style de vie. Nous allions beauté, tradition et fonctionnalité au quotidien pour créer des pièces artisanales qui subliment votre style et vos espaces de vie.", "Explorez nos diverses catégories d'artisanat ci-dessous et si vous recherchez quelque chose d'unique, contactez-moi - je serai honoré de donner vie à votre inspiration."],
                              link: "Entrer en contact"
                       },
                       listings: [
@@ -139,14 +139,14 @@ export const french = {
                      }
                },
                artisans: {
-                     intro: "Rencontrez l'équipe Craft Crew qui propulse Afrofit",
-                     description: "Au cœur d'Afrofit se trouve un collectif d'artisans qualifiés, véritables artistes derrière chaque point, tissage et création. Ces personnes talentueuses ne sont pas seulement des créateurs ; elles sont l'âme de notre marque, alliant tradition et créativité pour créer des pièces riches de culture et de sens. Profondément attachés à l'excellence, ils appliquent les normes de qualité les plus strictes, traitant chaque création comme un chef-d'œuvre. Leurs mains façonnent plus que du tissu : elles façonnent des histoires."
+                     intro: "Rencontrez l'équipe Craft Crew qui propulse Afro'Fit",
+                     description: "Au cœur d'Afro'Fit se trouve un collectif d'artisans qualifiés, véritables artistes derrière chaque point, tissage et création. Ces personnes talentueuses ne sont pas seulement des créateurs ; elles sont l'âme de notre marque, alliant tradition et créativité pour créer des pièces riches de culture et de sens. Profondément attachés à l'excellence, ils appliquent les normes de qualité les plus strictes, traitant chaque création comme un chef-d'œuvre. Leurs mains façonnent plus que du tissu : elles façonnent des histoires."
                },
                testimonials: {
                      intro: {
                            text: "Témoignages",
                            title: "Des expériences à chérir",
-                           description: "Chaque pièce Afrofit porte une histoire, non seulement culturelle et artisanale, mais aussi celle des personnes qui la portent et vivent avec. Des commandes personnalisées sincères aux transformations de leur intérieur, nos clients partagent comment Afrofit a intégré leur parcours. Voici quelques-unes des expériences qui continuent de nous inspirer au quotidien."
+                           description: "Chaque pièce Afro'Fit porte une histoire, non seulement culturelle et artisanale, mais aussi celle des personnes qui la portent et vivent avec. Des commandes personnalisées sincères aux transformations de leur intérieur, nos clients partagent comment Afro'Fit a intégré leur parcours. Voici quelques-unes des expériences qui continuent de nous inspirer au quotidien."
                      },
                     listings: [
                          {
@@ -154,35 +154,35 @@ export const french = {
                               name: "Kwame A.",
                               location: "Accra, Ghana",
                               image: "/testimonials/kwame.jpg",
-                              body: "Chaque pièce Afrofit me donne l'impression d'avoir été créée spécialement pour moi. Le savoir-faire est exceptionnel et les tissus sont empreints de personnalité et de fierté. Je ne porte pas seulement de l'Afrofit : je me sens connectée à quelque chose de plus grand à chaque fois. C'est plus que de la mode ; c'est le reflet de qui je suis."
+                              body: "Chaque pièce Afro'Fit me donne l'impression d'avoir été créée spécialement pour moi. Le savoir-faire est exceptionnel et les tissus sont empreints de personnalité et de fierté. Je ne porte pas seulement de l'Afro'Fit : je me sens connectée à quelque chose de plus grand à chaque fois. C'est plus que de la mode ; c'est le reflet de qui je suis."
                          },
                          {
                               id: 1,
                               name: "Amina K.",
                               location: "Nairobi, Kenya",
                               image: "/testimonials/amina.jpg",
-                              body: "Dès que je leur ai proposé mon idée personnalisée, l'équipe Afrofit m'a écoutée attentivement et l'a concrétisée avec créativité et soin. Le résultat final était époustouflant : vibrant, unique et magnifiquement réalisé. J'ai eu l'impression d'une collaboration plutôt que d'un simple achat, et c'est ce qui a fait toute la différence."
+                              body: "Dès que je leur ai proposé mon idée personnalisée, l'équipe Afro'Fit m'a écoutée attentivement et l'a concrétisée avec créativité et soin. Le résultat final était époustouflant : vibrant, unique et magnifiquement réalisé. J'ai eu l'impression d'une collaboration plutôt que d'un simple achat, et c'est ce qui a fait toute la différence."
                          },
                          {
                               id: 2,
                               name: "Zanelle M.",
                               location: "Yaoundé, Cameroon",
                               image: "/testimonials/zanelle.jpg",
-                              body: "Dès le toucher d'une pièce Afrofit, on ressent la qualité et l'intention. Chaque point, chaque perle, semble réfléchi et significatif. Les artisans à l'origine de ces créations sont de véritables maîtres, et leur respect de la culture et du design transparaît. Ce ne sont pas que des vêtements, c'est de l'art vestimentaire qui parle.."
+                              body: "Dès le toucher d'une pièce Afro'Fit, on ressent la qualité et l'intention. Chaque point, chaque perle, semble réfléchi et significatif. Les artisans à l'origine de ces créations sont de véritables maîtres, et leur respect de la culture et du design transparaît. Ce ne sont pas que des vêtements, c'est de l'art vestimentaire qui parle.."
                          },
                          {
                               id: 3,
                               name: "Daniel O.",
                               location: "New York, USA",
                               image: "/testimonials/daniel.jpg",
-                              body: "Ce que j'aime le plus chez Afrofit, c'est l'esprit qui se cache derrière chaque produit. Savoir que ma robe ou mon accessoire a été confectionné à la main par un artisan talentueux qui valorise la culture et la tradition lui donne encore plus de sens. Ce n'est pas seulement une question d'apparence, c'est aussi une question d'histoire et de savoir qui l'a confectionné."
+                              body: "Ce que j'aime le plus chez Afro'Fit, c'est l'esprit qui se cache derrière chaque produit. Savoir que ma robe ou mon accessoire a été confectionné à la main par un artisan talentueux qui valorise la culture et la tradition lui donne encore plus de sens. Ce n'est pas seulement une question d'apparence, c'est aussi une question d'histoire et de savoir qui l'a confectionné."
                          },
                          {
                               id: 4,
                               name: "Maya L.",
                               location: "Stockholm, Sweden",
                               image: "/testimonials/maya.jpg",
-                              body: "J'ai décoré tout mon espace de vie avec des pièces Afrofit, et la transformation a été incroyable. Les couleurs, les motifs et les détails faits main ont apporté une touche chaleureuse et pleine d'âme à ma maison. C'est désormais un espace qui raconte une histoire, et j'adore voir les gens s'y identifier dès qu'ils y entrent."
+                              body: "J'ai décoré tout mon espace de vie avec des pièces Afro'Fit, et la transformation a été incroyable. Les couleurs, les motifs et les détails faits main ont apporté une touche chaleureuse et pleine d'âme à ma maison. C'est désormais un espace qui raconte une histoire, et j'adore voir les gens s'y identifier dès qu'ils y entrent."
                          }
                     ]
                },
@@ -256,7 +256,7 @@ export const french = {
 
 export const english = {
       site_identity: {
-             title: "Afrofit",
+             title: "Afro'Fit",
              tagline: "Preserving African Heritage",
       },
       header: {
@@ -280,13 +280,13 @@ export const english = {
                               "Luxury",
                               "Heritage"
                          ],
-                         text: "At Afrofit, we craft more than just clothing and décor — we bring culture and creativity into everyday living. From tailored African wear to vibrant home accents and meaningful accessories, every piece is a tribute to tradition and personal expression."
+                         text: "At Afro'Fit, we craft more than just clothing and décor — we bring culture and creativity into everyday living. From tailored African wear to vibrant home accents and meaningful accessories, every piece is a tribute to tradition and personal expression."
                     }
                },
                benefits: {
                      intro: {
                            title: "What sets us apart",
-                           description: "Afrofit is where African artistry meets intentional design. Each handcrafted piece is inspired by the stories, rhythms, and colors of Africa — personalized and brought to life by skilled artisans who infuse every detail with culture, identity, and heart."
+                           description: "Afro'Fit is where African artistry meets intentional design. Each handcrafted piece is inspired by the stories, rhythms, and colors of Africa — personalized and brought to life by skilled artisans who infuse every detail with culture, identity, and heart."
                      },
                      listings: {
                           one: {
@@ -295,7 +295,7 @@ export const english = {
                           },
                           two: {
                                title: "Uncomprimising Quality",
-                               text: "Afrofit delivers timeless pieces designed to last."
+                               text: "Afro'Fit delivers timeless pieces designed to last."
                           },
                           three: {
                                 title: "Here when you need us",
@@ -332,7 +332,7 @@ export const english = {
                capabilitySection: {
                       intro: {
                              title: "The Art of African Living",
-                             description: ["Our aim at Afrofit is to bring the spirit of Africa into every aspect of your life, from what you wear to how you live. We blend beauty, tradition, and everyday function to create handcrafted pieces that elevate both your personal style and your living spaces.", "Explore our diverse craft categories below and if you're seeking something uniquely your's, reach out — we’ll be honored to bring your inspiration to life."],
+                             description: ["Our aim at Afro'Fit is to bring the spirit of Africa into every aspect of your life, from what you wear to how you live. We blend beauty, tradition, and everyday function to create handcrafted pieces that elevate both your personal style and your living spaces.", "Explore our diverse craft categories below and if you're seeking something uniquely your's, reach out — we’ll be honored to bring your inspiration to life."],
                              link: "Get in touch"
                       },
                       listings: [
@@ -395,14 +395,14 @@ export const english = {
                      }
                },
               artisans: {
-                     intro: "Meet the Craft Crew Powering Afrofit",
-                     description: "At the heart of Afrofit is a collective of skilled artisans — the real artists behind every stitch, weave, and design. These talented individuals are not just makers; they are the soul of our brand, blending tradition with creativity to produce pieces rich in culture and meaning. With a deep commitment to excellence, they uphold the highest standards of quality among themselves, treating each creation as a masterpiece. Their hands shape more than fabric — they shape stories."
+                     intro: "Meet the Craft Crew Powering Afro'Fit",
+                     description: "At the heart of Afro'Fit is a collective of skilled artisans — the real artists behind every stitch, weave, and design. These talented individuals are not just makers; they are the soul of our brand, blending tradition with creativity to produce pieces rich in culture and meaning. With a deep commitment to excellence, they uphold the highest standards of quality among themselves, treating each creation as a masterpiece. Their hands shape more than fabric — they shape stories."
                },
                testimonials: {
                      intro: {
                            text: "Testimonials",
                            title: "Experiences to Cherish",
-                           description: "Every Afrofit piece carries a story — not just of culture and craftsmanship, but of the people who wear and live with them. From heartfelt custom orders to home transformations, our customers share how Afrofit has become part of their journey. Here are some of the experiences that continue to inspire us every day."
+                           description: "Every Afro'Fit piece carries a story — not just of culture and craftsmanship, but of the people who wear and live with them. From heartfelt custom orders to home transformations, our customers share how Afro'Fit has become part of their journey. Here are some of the experiences that continue to inspire us every day."
                      },
                     listings: [
                          {
@@ -410,35 +410,35 @@ export const english = {
                               name: "Kwame A.",
                               location: "Accra, Ghana",
                               image: "/testimonials/kwame.jpg",
-                              body: "Every Afrofit piece feels like it was made just for me. The craftsmanship is exceptional, and the fabrics are rich with personality and pride. I don’t just wear Afrofit — I feel connected to something bigger every time I do. It’s more than fashion; it’s a reflection of who I am."
+                              body: "Every Afro'Fit piece feels like it was made just for me. The craftsmanship is exceptional, and the fabrics are rich with personality and pride. I don’t just wear Afro'Fit — I feel connected to something bigger every time I do. It’s more than fashion; it’s a reflection of who I am."
                          },
                          {
                               id: 1,
                               name: "Amina K.",
                               location: "Nairobi, Kenya",
                               image: "/testimonials/amina.jpg",
-                              body: "From the moment I reached out with my custom idea, the Afrofit team listened attentively and brought it to life with creativity and care. The end result was stunning — vibrant, unique, and beautifully made. It felt like a collaboration rather than just a purchase, and that made all the difference."
+                              body: "From the moment I reached out with my custom idea, the Afro'Fit team listened attentively and brought it to life with creativity and care. The end result was stunning — vibrant, unique, and beautifully made. It felt like a collaboration rather than just a purchase, and that made all the difference."
                          },
                          {
                               id: 2,
                               name: "Zanelle M.",
                               location: "Yaoundé, Cameroon",
                               image: "/testimonials/zanelle.jpg",
-                              body: "You can feel the quality and intention the moment you touch an Afrofit piece. Every stitch, every bead feels deliberate and meaningful. The artisans behind these creations are true masters, and their respect for culture and design shines through. It’s not just clothing — it’s wearable art that speaks."
+                              body: "You can feel the quality and intention the moment you touch an Afro'Fit piece. Every stitch, every bead feels deliberate and meaningful. The artisans behind these creations are true masters, and their respect for culture and design shines through. It’s not just clothing — it’s wearable art that speaks."
                          },
                          {
                               id: 3,
                               name: "Daniel O.",
                               location: "New York, USA",
                               image: "/testimonials/daniel.jpg",
-                              body: "What I love most about Afrofit is the heart behind every product. Knowing that my dress or accessory was handcrafted by a skilled artisan who values culture and tradition gives it so much more meaning. It’s not just about how it looks — it’s about the story it carries and the hands that made it."
+                              body: "What I love most about Afro'Fit is the heart behind every product. Knowing that my dress or accessory was handcrafted by a skilled artisan who values culture and tradition gives it so much more meaning. It’s not just about how it looks — it’s about the story it carries and the hands that made it."
                          },
                          {
                               id: 4,
                               name: "Maya L.",
                               location: "Stockholm, Sweden",
                               image: "/testimonials/maya.jpg",
-                              body: "I decorated my entire living space with Afrofit pieces, and the transformation was incredible. The colors, patterns, and handmade details brought a warm, soulful feel into my home. It’s now a space that tells a story — and I love watching people connect with it the moment they walk in."
+                              body: "I decorated my entire living space with Afro'Fit pieces, and the transformation was incredible. The colors, patterns, and handmade details brought a warm, soulful feel into my home. It’s now a space that tells a story — and I love watching people connect with it the moment they walk in."
                          }
                     ]
                },
