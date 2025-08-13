@@ -11,28 +11,28 @@ const AboutSection = () => {
               <div className="inner-row">
                         <div className="about-section-content">
                                     <div className="about-section-col">
-                                              <img src={about} alt="" className="large-image" />
+                                              <img src={about} data-aos="zoom-in-right" alt="" className="large-image" />
                                               <div className="about-section-split">
                                                        <div className="about-split-texts">
-                                                                 <div className="statement-moja">
+                                                                 <div className="statement-moja" data-aos="zoom-in-right">
                                                                           <h3>{language.data.pages.home.about.mission.title}</h3>
                                                                           <p>{language.data.pages.home.about.mission.text}</p>
                                                                  </div>
-                                                                 <div className="statement-moja">
+                                                                 <div className="statement-moja" data-aos="zoom-in-right">
                                                                              <h3>{language.data.pages.home.about.vision.title}</h3>
                                                                              <p>{ language.data.pages.home.about.vision.text}</p>
                                                                  </div>
                                                        </div>
-                                                       <img src={about3} alt="" />
+                                                       <img data-aos="zoom-in" src={about3} alt="" />
                                               </div>
                                   </div>
                                   <div className="about-section-col">
                                              <div className="about-section-texts">
-                                                        <h2>{ language.data.pages.home.about.body.title}</h2>
-                                                        <p>{ language.data.pages.home.about.body.description[0]}</p>
-                                                        <p>{ language.data.pages.home.about.body.description[1]}</p>
+                                                        <h2 data-aos="zoom-in-left">{ language.data.pages.home.about.body.title}</h2>
+                                                        <p data-aos="zoom-in-left">{ language.data.pages.home.about.body.description[0]}</p>
+                                                        <p data-aos="zoom-in-left">{ language.data.pages.home.about.body.description[1]}</p>
                                              </div>
-                                             <img src={about2} alt="" className="extra-image" />
+                                             <img data-aos="zoom-in-up" src={about2} alt="" className="extra-image" />
                                   </div>
 
                         </div>

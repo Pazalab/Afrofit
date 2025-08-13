@@ -13,15 +13,15 @@ const ArtisansSection = () => {
              <div className="inner-row">
                         <div className="artisans-section-content">
                                    <div className="artisans-images">
-                                              <img src={artisan2} alt="" />
-                                              <img src={artisan1} alt="" />
+                                              <img src={artisan2} data-aos="zoom-in-right" alt="" />
+                                              <img src={artisan1} data-aos="zoom-in-left" alt="" />
                                    </div>
                                    <div className="artisans-texts">
-                                                <h2>{ language.data.pages.home.artisans.intro}</h2>
-                                                <p>{ language.data.pages.home.artisans.description}</p>
+                                                <h2 data-aos="zoom-in-left">{ language.data.pages.home.artisans.intro}</h2>
+                                                <p data-aos="zoom-in-left">{ language.data.pages.home.artisans.description}</p>
 
                                                 <ul>
-                                                          { artisans.map(item => <li key={item}> <span><FaRegDotCircle /></span>{item}</li>)}
+                                                          { artisans.map(item => <li key={item} data-aos="zoom-in-left"> <span><FaRegDotCircle /></span>{item}</li>)}
                                                 </ul>
                                    </div>
                         </div>

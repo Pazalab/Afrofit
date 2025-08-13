@@ -26,32 +26,32 @@ const Showcase = () => {
                            <div className="showcase-content">
                                      <div className="showcase-intro">
                                                  <div className="showcase-column">
-                                                           <h3>{ language.data.pages.home.showcase.intro.secIntro}</h3>
-                                                           <h2>{ language.data.pages.home.showcase.intro.title}</h2>
+                                                           <h3 data-aos="zoom-in-down">{ language.data.pages.home.showcase.intro.secIntro}</h3>
+                                                           <h2 data-aos="zoom-in-up">{ language.data.pages.home.showcase.intro.title}</h2>
                                                  </div>
                                                  <div className="showcase-column">
-                                                         <p>{ language.data.pages.home.showcase.intro.description}</p>
-                                                         <Link to="contact" smooth={true}>{ language.data.pages.home.showcase.intro.linkText} <span><BsArrowDown /></span></Link>
+                                                         <p data-aos="zoom-in-left">{ language.data.pages.home.showcase.intro.description}</p>
+                                                         <Link data-aos='zoom-in-left' to="contact" smooth={true}>{ language.data.pages.home.showcase.intro.linkText} <span><BsArrowDown /></span></Link>
                                                  </div>
                                      </div>
 
                                      <div className="showcase-photos-grid">
-                                              <img src={product1} alt="" />
-                                              <img src={product2} alt="" />
-                                              <img src={product3} alt="" />
-                                              <img src="product" alt="" />
-                                              <img src={product5} alt="" />
-                                              <img src={product6} alt="" />
-                                              <img src={product7} alt="" />
-                                              <img src={product4} alt="" />
-                                              <img src={product8} alt="" />
-                                              <img src="product" alt="" />
-                                              <img src={product9} alt="" />
-                                              <img src={product10} alt="" />
-                                              <img src={product11} alt="" />
+                                              <img src={product1} data-aos="zoom-in" alt="" />
+                                              <img data-aos="zoom-in" src={product2} alt="" />
+                                              <img data-aos="zoom-in" src={product3} alt="" />
+                                              <img  src="product" alt="" />
+                                              <img data-aos="zoom-in" src={product5} alt="" />
+                                              <img data-aos="zoom-in" src={product6} alt="" />
+                                              <img data-aos="zoom-in" src={product7} alt="" />
+                                              <img data-aos="zoom-in" src={product4} alt="" />
+                                              <img data-aos="zoom-in" src={product8} alt="" />
+                                              <img  src="product" alt="" />
+                                              <img data-aos="zoom-in" src={product9} alt="" />
+                                              <img data-aos="zoom-in" src={product10} alt="" />
+                                              <img data-aos="zoom-in" src={product11} alt="" />
                                               <img src={"product"} alt="" />
-                                              <img src={product12} alt="" />
-                                              <img src={product13} alt="" />
+                                              <img data-aos="zoom-in" src={product12} alt="" />
+                                              <img data-aos="zoom-in" src={product13} alt="" />
                                      </div>
                            </div>
                </div>

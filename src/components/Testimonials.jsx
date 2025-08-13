@@ -14,16 +14,16 @@ const Testimonials = () => {
               <div className="inner-row">
                         <div className="testimonials-section-content">
                                    <div className="testimonials-intro">
-                                             <h3>{ language.data.pages.home.testimonials.intro.text}</h3>
-                                             <h2>{ language.data.pages.home.testimonials.intro.title}</h2>
-                                             <p>{language.data.pages.home.testimonials.intro.description}</p>
+                                             <h3 data-aos="zoom-in-down">{ language.data.pages.home.testimonials.intro.text}</h3>
+                                             <h2 data-aos="zoom-in-up">{ language.data.pages.home.testimonials.intro.title}</h2>
+                                             <p data-aos="zoom-in-up">{language.data.pages.home.testimonials.intro.description}</p>
                                    </div>
 
                                    <div className="testimonials-slider">
-                                              <div className="testimonials-grayed"></div>
+                                              <div className="testimonials-grayed" data-aos="zoom-in"></div>
                                                <div className="testimonial-btns">
-                                                        <button onClick={() => swiperRef.slidePrev()}><span><BsArrowLeft /></span></button>
-                                                        <button onClick={() => swiperRef.slideNext()}><span><BsArrowRight /></span></button>
+                                                        <button onClick={() => swiperRef.slidePrev()} data-aos="zoom-in-right"><span><BsArrowLeft /></span></button>
+                                                        <button onClick={() => swiperRef.slideNext()} data-aos="zoom-in-left"><span><BsArrowRight /></span></button>
                                                </div>
                                                <Swiper
                                                        slidesPerView={1}
@@ -42,6 +42,7 @@ const Testimonials = () => {
                                                        modules={[Autoplay]}
                                                        onSwiper={(swiper) => setSwiperRef(swiper)}
                                                        className="myswiper"
+                                                       data-aos="zoom-in"
                                                >
                                                    {
                                                        language.data.pages.home.testimonials.listings.map(item => (

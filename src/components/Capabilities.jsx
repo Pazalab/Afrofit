@@ -11,25 +11,24 @@ const Capabilities = () => {
     <div className="capabilities-section">
               <div className="inner-row">
                        <div className="capabilities-section-content">
-                                  <div className="capability-images">
-                                            {/* <img src={capacity1} alt="" /> */}
-                                            <img src={capacity2} alt="" />
-                                  </div>
+                                  {/* <div className="capability-images">
+                                            <img data-aos="zoom-in-up" src={capacity2} alt="" />
+                                  </div> */}
                                   <div className="capability-intro">
-                                           <h2>{ language.data.pages.home.capabilitySection.intro.title }</h2>
-                                           <div className="intro-texts">
-                                                   <p>{ language.data.pages.home.capabilitySection.intro.description[0]}</p>
-                                                   <p>{ language.data.pages.home.capabilitySection.intro.description[1]}</p>
+                                           <h2 data-aos="zoom-in-right">{ language.data.pages.home.capabilitySection.intro.title }</h2>
+                                           {/* <div className="intro-texts">
+                                                   <p data-aos="zoom-in-left">{ language.data.pages.home.capabilitySection.intro.description[0]}</p>
+                                                   <p data-aos="zoom-in-left">{ language.data.pages.home.capabilitySection.intro.description[1]}</p>
 
-                                                   <Link to="contact" smooth={true}>{ language.data.pages.home.capabilitySection.intro.link}<span><BsArrowDown /></span></Link>
-                                           </div>
+                                                   <Link data-aos="zoom-in-left" to="contact" smooth={true}>{ language.data.pages.home.capabilitySection.intro.link}<span><BsArrowDown /></span></Link>
+                                           </div> */}
                                   </div>
                                   <div className="capability-row">
                                              <div className="capability-row-column">
-                                                          <h3>Capabilities</h3>
+                                                          <h3 data-aos="zoom-in-down">Capabilities</h3>
                                                           <ul>
                                                                   { language.data.pages.home.capabilitySection.listings.map(item => (
-                                                                          <li key={item.id}>
+                                                                          <li key={item.id} data-aos="zoom-in-right">
                                                                                   <img src={item.icon} alt="" />
                                                                                   <div className="">
                                                                                            <h4>{item.title}</h4>
@@ -39,7 +38,7 @@ const Capabilities = () => {
                                                                   ))}
                                                           </ul>
                                              </div>
-                                             <div className="capability-row-image">
+                                             <div className="capability-row-image" data-aos='zoom-in-left'>
                                                       <img src={capacity1} alt="" />
                                              </div>
                                   </div>

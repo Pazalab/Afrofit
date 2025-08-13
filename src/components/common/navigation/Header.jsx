@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/logo-1.png"
 import { Link } from "react-scroll";
 import french_flag from "../../../assets/french.png"
 import english_flag from "../../../assets/english.png";

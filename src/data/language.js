@@ -15,22 +15,22 @@ export const french = {
       pages: {
            home: {
                heroSection: {
-                    title: "Artisanat d’Afrique, conçu pour raconter votre histoire",
+                    title: "Découvrez Votre Touche Africaine Aujourd’hui…un Héritage",
                     linkText: "Explorer la collection",
                     linkTo: "collection",    
                     description: {
                          spans: [
                               "Confort",
-                              "Luxe",
+                              "fabriqué à la main",
                               "Héritage"
                          ],
-                         text: "Chez Afro'Fit, nous créons bien plus que des vêtements et de la décoration — nous insufflons culture et créativité dans le quotidien. Des tenues africaines sur mesure aux objets de décoration vibrants et accessoires porteurs de sens, chaque pièce rend hommage à la tradition et à l’expression personnelle."
+                         text: "AFRO’FIT offre une superbe collection Africaine de vêtements d’intérieur pour tous, déco maison et une variété d’accessoires customisés à la main, qui célèbrent votre Héritage. Élevez votre style et votre espace avec des pièces uniques et confortables qui racontent votre histoire. "
                     }
                },
               benefits: {
                      intro: {
-                           title: "Ce qui nous distingue",
-                           description: "Afro'Fit est la rencontre entre l'art africain et le design intentionnel. Chaque pièce fabriquée à la main s'inspire des histoires, des rythmes et des couleurs de l'Afrique. Elle est personnalisée et réalisée par des artisans qualifiés qui imprègnent chaque détail de culture, d'identité et de cœur."
+                           title: "Afro’fit Parce Que",
+                           description: "Les racines, l’héritage et ses richesses font notre identité. Conscients de cette identité, AFRO’FIT opte pour le « fait-main » mettant en avant le savoir-faire des artisans Africains. 80-90% de confections et tissages sont fait à la main, à base de matériaux africains tout en s’adaptant aux tendances contemporaines. La conception de chaque pièce porte votre personnalité, elle nait de vos préférences…de « votre touche » et nous y assurons fiabilité, confort, chaleur et durabilité. "
                      },
                      listings: {
                           one: {
@@ -61,16 +61,16 @@ export const french = {
                },
                 about: {
                       body: {
-                           title: "Embrasser le patrimoine africain à travers un artisanat et un design innovants.",
-                           description: ["Nous nous engageons à façonner de manière innovante les matières premières africaines pour créer des pièces exceptionnelles qui célèbrent le patrimoine, l'identité et l'expression personnelle. Chaque création est fabriquée à la main avec un objectif précis, réinventant la richesse de la culture africaine à travers un design audacieux et un savoir-faire artisanal soigné.", "Nous fabriquons soigneusement chaque pièce avec un engagement envers la durabilité et l'authenticité, garantissant que ce que vous portez ou affichez est à la fois significatif et fabriqué de manière responsable."]
+                           title: "Appréciez L’héritage Africain À Travers Un Artisanat Innovant",
+                           description: ["Chez AFRO’FIT, nous nous dédions à transformer les matières locales en de ravissantes créations qui révèlent les riches traditions de nos terres. Nous sommes engagés à propulser les artisans-créateurs africains qui façonnent chaque bijou, chaussure, objet d’art, sac, panier, écharpe etc… que vous portez et utilisez, un effet vibrant de votre identité."]
                       },
                       mission: {
-                            title: "Notre Mission",
-                            text: "Pour donner du pouvoir aux artisans qualifiés à travers l'Afrique tout en offrant une touche dynamique qui correspond à votre identité."
+                            title: "Notre Engagement",
+                            text: "Maintenir la priorité sur l’authenticité et la durabilité de chaque pièce que nous créons pour vous."
                       },
                       vision: {
-                           title: "Notre vision",
-                           text: "Inspirer l’appréciation mondiale du patrimoine africain à travers nos créations."
+                           title: "Notre Vision",
+                           text: "Inspirer appréciation et célébration unanimes de l’Héritage Africain à travers nos créations. "
                       }
                },
               capabilitySection: {
@@ -82,8 +82,8 @@ export const french = {
                       listings: [
                              {
                                  id: 0,
-                                 title: "Tissu",
-                                 text: "Imprimés et textiles africains de haute qualité, parfaits pour des créations personnalisées ou des accents de décoration.",
+                                 title: "Etoffes",
+                                 text: "Écharpes, jetés, foulars, tapis de pique-nique, jardin et plages selon votre choix.",
                                  icon: "/icons/fabric.png"
                              },
                              {
@@ -94,15 +94,15 @@ export const french = {
                              },
                              {
                                  id: 2,
-                                 title: "Sous-verres et bocaux",
-                                 text: "Des pièces de table magnifiquement détaillées qui allient praticité et design d'inspiration afro.",
-                                 icon: "/icons/pottery.png"
+                                 title: "Déco tables ",
+                                 text: "sets  et chemins de table, sous plats divers, ronds de serviette, et porte-couverts.",
+                                 icon: "/icons/table-cloth.png"
                              },
                              {
                                  id: 3,
-                                 title: "Robes Ankara",
-                                 text: "Des robes saisissantes et sur mesure fabriquées à partir de tissu Ankara authentique, conçues pour célébrer votre style et votre héritage.",
-                                 icon: '/icons/dress.png'
+                                 title: "Vêtements d’intérieur ou plage",
+                                 text: "Peignoir et serviettes, boubous légers, paréo plage.",
+                                 icon: '/icons/beach.png'
                              },
                              {
                                 id: 4,
@@ -115,6 +115,12 @@ export const french = {
                                 title: "Chaussures et sandales",
                                 text: "Des chaussures confortables et créatives, conçues avec des motifs traditionnels et une touche moderne.",
                                 icon: "/icons/sandals.png"
+                             },
+                             {
+                                id: 55,
+                                title: "Sets bain nouveau nés et tout-petits ",
+                                icon: "/icons/baby.png",
+                                text: ""
                              },
                              {
                                 id: 6, 
@@ -271,22 +277,22 @@ export const english = {
       pages: {
            home: {
                heroSection: {
-                    title:"Handcrafted in Africa, Made to Tell Your Story",
+                    title:"Discover your African Touch Today...A Heritage",
                     linkText: "Explore Collection",
                     linkTo: "collection",
                     description: {
                          spans: [
                               "Comfort",
-                              "Luxury",
+                              "Handcrafted",
                               "Heritage"
                          ],
-                         text: "At Afro'Fit, we craft more than just clothing and décor — we bring culture and creativity into everyday living. From tailored African wear to vibrant home accents and meaningful accessories, every piece is a tribute to tradition and personal expression."
+                         text: "AFRO'FIT offers a stunning African collection of loungewear for all, home decor, and a variety of hand-customized accessories that celebrate your heritage. Elevate your style and your space with unique and comfortable pieces that tell your story."
                     }
                },
                benefits: {
                      intro: {
-                           title: "What sets us apart",
-                           description: "Afro'Fit is where African artistry meets intentional design. Each handcrafted piece is inspired by the stories, rhythms, and colors of Africa — personalized and brought to life by skilled artisans who infuse every detail with culture, identity, and heart."
+                           title: "Why Afro'Fit",
+                           description: "Our roots, heritage, and richness define our identity. Conscious of this identity, AFRO'FIT opts for 'handmade' products, highlighting the expertise of African artisans. 80-90% of our garments and weaves are handmade, using African materials while adapting to contemporary trends. The design of each piece reflects your personality; it is born from your preferences...from 'your touch', and we ensure reliability, comfort, warmth, and durability."
                      },
                      listings: {
                           one: {
@@ -317,16 +323,16 @@ export const english = {
                },
                about: {
                       body: {
-                           title: "Embracing African Heritage through Innovative Craftmanship and Design.",
-                           description: ["We are dedicated to innovatively shaping raw African materials into stunning pieces that celebrate heritage, identity, and self-expression. Every creation is handcrafted with purpose, reimagining the richness of African culture through bold design and intentional craftsmanship.", "We thoughtfully craft each piece with a commitment to sustainability and authenticity, ensuring that what you wear or display is both meaningful and responsibly made."]
+                           title: "Appreciate African Heritage Through Innovative Craftsmanship",
+                           description: ["At AFRO'FIT, we are dedicated to transforming local materials into delightful creations that reveal the rich traditions of our lands. We are committed to promoting the African artisan-designers who craft every piece of jewelry, shoe, art object, bag, basket, scarf, etc. that you wear and use, a vibrant expression of your identity."]
                       },
                       mission: {
-                            title: "Our Mission",
-                            text: "To empower skilled artisans across Africa while delivering a vibrant touch that match your identity."
+                            title: "Our Commitment",
+                            text: "To prioritize the authenticity and durability of every piece we create for you."
                       },
                       vision: {
-                           title: "Our Vision",
-                           text: "To inspire global appreciation for African Heritage through our creations."
+                           title: "Notre Vision",
+                           text: "To insipire unanimous appreciation and celebration of African Heritage throught our creations. "
                       }
                },
                capabilitySection: {
@@ -338,8 +344,8 @@ export const english = {
                       listings: [
                              {
                                  id: 0,
-                                 title: "Fabric",
-                                 text: "High-quality African prints and textiles, perfect for custom creations or décor accents.",
+                                 title: "Fabrics",
+                                 text: "Scarves, throws, foulards, picnic, garden, and beach rugs of your choice",
                                  icon: "/icons/fabric.png"
                              },
                              {
@@ -350,15 +356,15 @@ export const english = {
                              },
                              {
                                  id: 2,
-                                 title: "Coasters & Jars",
-                                 text: "Beautifully detailed table pieces that blend practicality with Afro-inspired design.",
-                                 icon: "/icons/pottery.png"
+                                 title: "Table Decorations",
+                                 text: "Placemats and table runners, various placements, napkin rings, and cutlery holders.",
+                                 icon: "/icons/table-cloth.png"
                              },
                              {
                                  id: 3,
-                                 title: "Ankara Dresses",
-                                 text: "Striking, tailored dresses made from authentic Ankara fabric — made to celebrate your style and heritage.",
-                                 icon: '/icons/dress.png'
+                                 title: "Loungewear or  Beachwear",
+                                 text: "Bathrobes and towels, light boubous, beach sarongs.",
+                                 icon: '/icons/beach.png'
                              },
                              {
                                 id: 4,
@@ -371,6 +377,12 @@ export const english = {
                                 title: "Shoes & Sandals",
                                 text: "Comfortable and creative footwear, designed with traditional patterns and modern flair",
                                 icon: "/icons/sandals.png"
+                             },
+                            {
+                                 id: 38,
+                                 title: "Bath sets for newborns and toddlers",
+                                 text: "",
+                                 icon: '/icons/baby.png'
                              },
                              {
                                 id: 6, 

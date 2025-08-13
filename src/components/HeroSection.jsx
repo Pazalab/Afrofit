@@ -12,23 +12,23 @@ const HeroSection = () => {
            <div className="inner-row">
                      <div className="hero-section-content">
                               <div className="hero-col-item">
-                                       <h1>{ language.data.pages.home.heroSection.title}.</h1>
-                                       <Link  spy={true} smooth={true} to="collection">{language.data.pages.home.heroSection.linkText} <span><BsArrowDown /></span></Link>
+                                       <h1 data-aos="zoom-in-right">{ language.data.pages.home.heroSection.title}.</h1>
+                                       <Link data-aos="zoom-in-right"  spy={true} smooth={true} to="collection">{language.data.pages.home.heroSection.linkText} <span><BsArrowDown /></span></Link>
 
-                                       <img src={hero1} alt="" />
+                                       <img src={hero1} alt="" data-aos="zoom-in-up" />
                               </div>
                               <div className="hero-col-item">
-                                       <img src={hero2} alt="" />
+                                       <img data-aos="zoom-in" src={hero2} alt="" />
                               </div>
                               <div className="hero-col-item">
                                        <div className="hero-col-texts">
-                                                  <div className="hero-col-ads">
+                                                  <div className="hero-col-ads" data-aos="zoom-in-left">
                                                         { language.data.pages.home.heroSection.description.spans.map(item => (
                                                           <span key={item}>{item}</span>))}
                                                   </div>
-                                                  <p>{language.data.pages.home.heroSection.description.text}</p>
+                                                  <p data-aos="zoom-in-left">{language.data.pages.home.heroSection.description.text}</p>
 
-                                                  <img src={hero3} alt="" />
+                                                  <img data-aos="zoom-in-left" src={hero3} alt="" />
                                        </div>
                               </div>
                      </div>
