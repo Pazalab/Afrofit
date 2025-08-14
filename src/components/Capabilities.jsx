@@ -1,7 +1,7 @@
 import { Link } from "react-scroll"
 import capacity1 from "../assets/capacity3.jpg"
-import capacity2 from "../assets/capacity2.jpg"
-import { BsArrowDown } from "react-icons/bs";
+// import capacity2 from "../assets/capacity2.jpg"
+// import { BsArrowDown } from "react-icons/bs";
 import { useContext } from "react";
 import { languageContext } from "./common/languageContext";
 

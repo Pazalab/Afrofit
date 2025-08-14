@@ -483,13 +483,12 @@
 }
 .capability-intro{
       width: 90%;
-      margin: 40px auto;
-     display: grid;
-     grid-template-columns: 1fr 1.25fr;
-     gap: 50px;
+      margin: 0 auto 20px auto;
 }
 .capability-intro h2{
      font-size: 60px;
+     text-align: center;
+     
 }
 .capability-intro p{
      font-size: 18px;
@@ -654,6 +653,7 @@
 }
 .artisans-section{
      padding-bottom: 100px;
+     overflow: hidden;
 }
 .artisans-section-content{
       border-top: 1px solid rgba(209, 185, 164, 0.241);
