@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import about from "../assets/pattern.avif"
+import about from "../assets/pattern.png"
 import about2 from "../assets/about4.jpg"
 import about3 from "../assets/about5.jpg"
 import { languageContext } from "./common/languageContext"

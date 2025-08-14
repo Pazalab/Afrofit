@@ -88,7 +88,7 @@ export const french = {
                              },
                              {
                                  id: 1,
-                                 title: "sacs à main",
+                                 title: "Sacs à main",
                                  text: "Sacs audacieux et fabriqués à la main avec des tissus africains vibrants — fonctionnels, élégants et pleins de personnalité.",
                                  icon: "/icons/handbags.png"
                              },
@@ -145,7 +145,7 @@ export const french = {
                      }
                },
                artisans: {
-                     intro: "Rencontrez l'équipe Craft Crew qui propulse Afro'Fit",
+                     intro: "Les mains magiques behind the scenes: vos artisans ",
                      description: "Au cœur d'Afro'Fit se trouve un collectif d'artisans qualifiés, véritables artistes derrière chaque point, tissage et création. Ces personnes talentueuses ne sont pas seulement des créateurs ; elles sont l'âme de notre marque, alliant tradition et créativité pour créer des pièces riches de culture et de sens. Profondément attachés à l'excellence, ils appliquent les normes de qualité les plus strictes, traitant chaque création comme un chef-d'œuvre. Leurs mains façonnent plus que du tissu : elles façonnent des histoires."
                },
                testimonials: {
@@ -407,7 +407,7 @@ export const english = {
                      }
                },
               artisans: {
-                     intro: "Meet the Craft Crew Powering Afro'Fit",
+                     intro: "The magic hands behind the scenes: your artisans",
                      description: "At the heart of Afro'Fit is a collective of skilled artisans — the real artists behind every stitch, weave, and design. These talented individuals are not just makers; they are the soul of our brand, blending tradition with creativity to produce pieces rich in culture and meaning. With a deep commitment to excellence, they uphold the highest standards of quality among themselves, treating each creation as a masterpiece. Their hands shape more than fabric — they shape stories."
                },
                testimonials: {

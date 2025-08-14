@@ -29,7 +29,7 @@ const ArtisansSection = () => {
                                                 <div className="artisan-map-group">
                                                           <img src={afrimap} alt="" />
                                                            <ul>
-                                                                     { artisans.map(item => <li key={item} data-aos="zoom-in" data-aos-delay="1000"> <span><IoLocationOutline /></span>{item}</li>)}
+                                                                     { artisans.map(item => <li key={item} data-aos="zoom-in" data-aos-delay="1000">{item}</li>)}
                                                            </ul>
                                                 </div>
                                    </div>
