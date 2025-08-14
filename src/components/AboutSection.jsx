@@ -1,7 +1,7 @@
 import { useContext } from "react"
-import about from "../assets/about.jpg"
-import about2 from "../assets/about2.jpg"
-import about3 from "../assets/about3.jpg"
+import about from "../assets/pattern.avif"
+import about2 from "../assets/about4.jpg"
+import about3 from "../assets/about5.jpg"
 import { languageContext } from "./common/languageContext"
 const AboutSection = () => {
     const [ language ] = useContext(languageContext);

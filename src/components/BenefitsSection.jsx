@@ -1,6 +1,5 @@
 import quality from "../assets/quality.jpg"
 import comms from "../assets/comms.png"
-import collaboration from "../assets/collaboration.jpg"
 import picture1 from "../assets/picture1.jpg"
 import picture2 from "../assets/picture2.jpg"
 import { useContext } from "react"
@@ -32,13 +31,7 @@ const BenefitsSection = () => {
                                                                                    <p>{ language.data.pages.home.benefits.listings.two.text}</p>
                                                                          </div>
                                                                 </div>
-                                                                <div className="tripple-grid-column-short" data-aos="zoom-in-up">
-                                                                           <div className="grid-texts">
-                                                                                   <h3>{ language.data.pages.home.benefits.listings.three.title}</h3>
-                                                                                   <p>{ language.data.pages.home.benefits.listings.three.text}</p>
-                                                                           </div>
-                                                                           <img src={comms} alt="" />
-                                                                </div>
+                                                             
                                                       </div>
                                                       <div className="tripple-grid-item" data-aos="zoom-in-left">
                                                                  <div className="item-texts">
@@ -48,13 +41,20 @@ const BenefitsSection = () => {
                                                       </div>
                                              </div>
                                              <div className="double-grid-row">
-                                                       <div className="first-double-column" data-aos="zoom-in-right">
+                                                       {/* <div className="first-double-column" data-aos="zoom-in-right">
                                                                 <img src={collaboration} alt="" />
                                                                 <div className="first-double-texts">
                                                                           <h3>{ language.data.pages.home.benefits.listings.five.title}</h3>
                                                                           <p>{ language.data.pages.home.benefits.listings.five.text}</p>
                                                                 </div>
-                                                       </div>
+                                                       </div> */}
+                                                          <div className="tripple-grid-column-short" data-aos="zoom-in-up">
+                                                                           <div className="grid-texts">
+                                                                                   <h3>{ language.data.pages.home.benefits.listings.three.title}</h3>
+                                                                                   <p>{ language.data.pages.home.benefits.listings.three.text}</p>
+                                                                           </div>
+                                                                           <img src={comms} alt="" />
+                                                                </div>
                                                        <div className="second-double-column" data-aos="zoom-in-left">
                                                                   <div className="second-double-texts">
                                                                           <h3>{ language.data.pages.home.benefits.listings.six.title}</h3>

@@ -2,19 +2,18 @@ import { BsArrowDown } from "react-icons/bs"
 import { Link } from "react-scroll"
 import product1 from "../assets/products/prod8.jpg"
 import product2 from "../assets/products/prod4.jpg"
-import product3 from "../assets/products/prod10.jpg"
+import product3 from "../assets/products/prod19.jpg"
 import product4 from "../assets/products/prod6.jpg"
 import product5 from "../assets/products/prod2.jpg"
 import product6 from "../assets/products/prod7.png"
 import product7 from "../assets/products/prod3.jpg"
 import product8 from "../assets/products/prod8.jpg"
-import product9 from "../assets/products/prod11.jpg"
-import product10 from "../assets/products/prod1.jpg"
-import product11 from "../assets/products/prod9.avif"
-import product12 from "../assets/products/prod12.jpg"
-import product13 from "../assets/products/prod13.jpg"
-// import product14 from "../assets/products/prod14.jpg"
-// import product15 from "../assets/products/prod15.jpg"
+import product9 from "../assets/products/prod22.jpg"
+import product10 from "../assets/products/prod21.jpg"
+import product11 from "../assets/products/prod18.jpg"
+import product13 from "../assets/products/prod20.jpg"
+import product14 from "../assets/products/prod5.png"
+import product15 from "../assets/products/prod23.jpg"
 import { useContext } from "react"
 import { languageContext } from "./common/languageContext"
 const Showcase = () => {
@@ -45,13 +44,13 @@ const Showcase = () => {
                                               <img data-aos="zoom-in" src={product7} alt="" />
                                               <img data-aos="zoom-in" src={product4} alt="" />
                                               <img data-aos="zoom-in" src={product8} alt="" />
-                                              <img  src="product" alt="" />
+                                              <img  data-aos="zoom-in" src={product14} alt="" />
                                               <img data-aos="zoom-in" src={product9} alt="" />
                                               <img data-aos="zoom-in" src={product10} alt="" />
                                               <img data-aos="zoom-in" src={product11} alt="" />
                                               <img src={"product"} alt="" />
-                                              <img data-aos="zoom-in" src={product12} alt="" />
-                                              <img data-aos="zoom-in" src={product13} alt="" />
+                                              <img data-aos="zoom-in" src={product15} alt="" />
+                                              <img className="last" data-aos="zoom-in" src={product13} alt="" />
                                      </div>
                            </div>
                </div>

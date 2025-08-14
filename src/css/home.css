@@ -172,7 +172,7 @@
      gap: 10px
 }
 .tripple-grid-item{
-      height: 500px;
+      height: 400px;
       border-radius: 15px;
       -webkit-border-radius: 15px;
       -moz-border-radius: 15px;
@@ -181,7 +181,7 @@
       overflow: hidden;
 }
 .tripple-grid-item:nth-child(1){
-     background: url("../assets/handcraft.jpg") no-repeat;
+     background: linear-gradient(rgba(0,0,0,0.7), transparent), url("../assets/products/prod4.jpg") no-repeat;
      background-size: cover;
      background-position: center;
      padding: 30px;
@@ -194,7 +194,7 @@
 
 .tripple-grid-item:nth-child(1) .grid-item-texts p{
      font-size: 15px;
-     color: gainsboro;
+     color: whitesmoke;
      line-height: 1.5;
 }
 
@@ -204,10 +204,11 @@
      gap: 10px;
 }
 .tripple-grid-column{
-     height: 60%;
+     height: 100%;
      background: var(--main-color);
      padding: 30px;
      display: flex;
+     justify-content: space-between;
      flex-direction: column;
      gap: 50px;
      border-radius: 15px;
@@ -229,7 +230,7 @@
 
 .grid-column-split img{
      width: 140px;
-     height: 100px;
+     height: 200px;
      border-radius: 15px;
      -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
@@ -252,7 +253,6 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     height: 37.5%;
      gap: 30px;
 }
 
@@ -272,18 +272,15 @@
 
 
 .tripple-grid-item:nth-child(3){
-     background: linear-gradient(transparent, rgba(0,0,0,0.3)), url("../assets/custom.jpg") no-repeat;
+     background: linear-gradient(transparent, rgba(0,0,0,0.3)), url("../assets/custom2.jpg") no-repeat;
      background-size: cover;
-     background-position: bottom;
+     background-position: top;
      padding: 30px 30px 40px 30px;
      display: flex;
      align-items: flex-end;
      justify-content: flex-end;
 }
 
-.tripple-grid-item .item-texts{
-      width: 80%;
-}
 .tripple-grid-item .item-texts h3{
      color: white;
      font-size: 30px;
@@ -621,6 +618,7 @@
      -moz-border-radius: 10px;
      -ms-border-radius: 10px;
      -o-border-radius: 10px;
+     max-height: 500px;
 }
 
 .showcase-photos-grid img:nth-child(3){
@@ -650,6 +648,10 @@
 .showcase-photos-grid img:nth-child(15){
       grid-column: span 2;
 }
+
+.showcase-photos-grid .last{
+      height: max-content;
+}
 .artisans-section{
      padding-bottom: 100px;
 }
@@ -657,14 +659,13 @@
       border-top: 1px solid rgba(209, 185, 164, 0.241);
       padding-top: 80px;
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 70px;
+      grid-template-columns: 1fr 1.25fr;
+      gap: 50px;
       align-items: center;
 }
 
 .artisans-images{
      display: grid;
-     grid-template-columns: 1fr 1fr;
      gap: 30px;
      height: max-content;
 }
@@ -677,8 +678,19 @@
      -o-border-radius: 15px;
 }
 
+.artisans-split{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 20px;
+}
+
+.artisans-texts{
+     height: max-content;
+}
+
 .artisans-texts h2{
      font-size: 50px;
+     text-align: center;
      margin-bottom: 10px;
 }
 
@@ -688,16 +700,135 @@
      margin-bottom: 20px;
 }
 
-.artisans-texts ul{
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     gap: 15px;
+.artisan-map-group{
+     position: relative;
+}
+.artisans-texts  img{
+      height: 500px;
 }
 .artisans-texts ul li{
      display: flex;
      gap: 5px;
      align-items: center;
-     font-size: 15px;
+     font-size: 12px;
+     font-weight: 600;
+     position: absolute;
+     top: 0;
+     padding: 10px 15px;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     background: white;
+}
+.artisans-texts ul li:nth-child(1){
+      left: 10%;
+      top: 10%
+}
+.artisans-texts ul li:nth-child(2){
+      left: 30%;
+      top: 5%
+}
+.artisans-texts ul li:nth-child(3){
+      left: 30%;
+      top: 20%
+}
+.artisans-texts ul li:nth-child(4){
+      left: 10%;
+      top: 30%
+}
+.artisans-texts ul li:nth-child(5){
+      left: 30%;
+      top: 40%
+}
+.artisans-texts ul li:nth-child(6){
+      left: 50%;
+      top: 10%
+}
+.artisans-texts ul li:nth-child(7){
+      left: 60%;
+      top: 30%
+}
+.artisans-texts ul li:nth-child(8){
+      left: 40%;
+      top: 50%
+}
+.artisans-texts ul li:nth-child(9){
+      left: 60%;
+      top: 20%
+}
+.artisans-texts ul li:nth-child(10){
+      left: 35%;
+      top: 30%
+}
+.artisans-texts ul li:nth-child(11){
+      left: 45%;
+      top: 25%
+}
+.artisans-texts ul li:nth-child(12){
+      left: 50%;
+      top: 40%
+}
+.artisans-texts ul li:nth-child(13){
+      left: 70%;
+      top: 40%
+}
+.artisans-texts ul li:nth-child(14){
+      left: 35%;
+      top: 60%
+}
+.artisans-texts ul li:nth-child(15){
+      left: 32%;
+      top: 70%
+}
+.artisans-texts ul li:nth-child(16){
+      left: 36%;
+      top: 80%
+}
+.artisans-texts ul li:nth-child(17){
+      left: 40%;
+      top: 90%
+}
+.artisans-texts ul li:nth-child(18){
+      left: 55%;
+      top: 90%
+}
+.artisans-texts ul li:nth-child(19){
+      left: 60%;
+      top: 50%
+}
+.artisans-texts ul li:nth-child(20){
+      left: 50%;
+      top:55%
+}
+.artisans-texts ul li:nth-child(21){
+      left: 45%;
+      top: 70%
+}
+.artisans-texts ul li:nth-child(21){
+      left: 50%;
+      top: 70%
+}
+.artisans-texts ul li:nth-child(22){
+      left: 60%;
+      top: 60%
+}
+.artisans-texts ul li:nth-child(23){
+      left: 60%;
+      top: 80%
+}
+.artisans-texts ul li:nth-child(24){
+      left: 15%;
+      top: 42%
+}
+.artisans-texts ul li:nth-child(25){
+      left: 15%;
+      top: 20%
+}
+.artisans-texts ul li:nth-child(26){
+      left: 22%;
+      top: 27%
 }
 
 .artisans-texts ul li span{
@@ -1069,9 +1200,7 @@ textarea::placeholder{
       .tripple-grid-column h3{
           font-size: 25px;
       }
-      .tripple-grid-column-short{
-            height: 50%;
-      }
+
       .tripple-grid-column-short h3{
            font-size: 18px;
            font-weight: 600;
@@ -1121,6 +1250,10 @@ textarea::placeholder{
           .faq-section-content{
                 grid-template-columns: 1fr ;
                 gap: 30px;
+          }
+
+          .artisans-texts img{
+                 height: 600px;
           }
 }
 
@@ -1198,6 +1331,10 @@ textarea::placeholder{
 .contact-form-column{
      padding: 50px
 }
+
+          .artisans-texts img{
+                 height: 500px;
+          }
 }
 
 @media(max-width: 550px){
