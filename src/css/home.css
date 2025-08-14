@@ -651,9 +651,9 @@
 .showcase-photos-grid .last{
       height: max-content;
 }
+
 .artisans-section{
      padding-bottom: 100px;
-     overflow: hidden;
 }
 .artisans-section-content{
       border-top: 1px solid rgba(209, 185, 164, 0.241);
@@ -840,6 +840,7 @@
 .testimonials-section{
       background: #bf9a872f;
       padding: 100px 0;
+      overflow: hidden;
 }
 
 .testimonials-intro{

@@ -25,7 +25,7 @@ const Capabilities = () => {
                                   </div>
                                   <div className="capability-row">
                                              <div className="capability-row-column">
-                                                          <h3 data-aos="zoom-in-down">Capabilities</h3>
+                                                          {/* <h3 data-aos="zoom-in-down">Capabilities</h3> */}
                                                           <ul>
                                                                   { language.data.pages.home.capabilitySection.listings.map(item => (
                                                                           <li key={item.id} data-aos="zoom-in-right">

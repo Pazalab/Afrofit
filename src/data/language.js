@@ -75,7 +75,7 @@ export const french = {
                },
               capabilitySection: {
                       intro: {
-                             title: "L'art de vivre africain",
+                             title: "Grâce à vous, AFRO'FIT confectionne...",
                              description: ["Chez Afro'Fit, notre objectif est d'intégrer l'esprit africain dans tous les aspects de votre vie, de vos tenues à votre style de vie. Nous allions beauté, tradition et fonctionnalité au quotidien pour créer des pièces artisanales qui subliment votre style et vos espaces de vie.", "Explorez nos diverses catégories d'artisanat ci-dessous et si vous recherchez quelque chose d'unique, contactez-moi - je serai honoré de donner vie à votre inspiration."],
                              link: "Entrer en contact"
                       },
@@ -337,7 +337,7 @@ export const english = {
                },
                capabilitySection: {
                       intro: {
-                             title: "The Art of African Living",
+                             title: "From your inspirations and ideas, AFRO'FIT creates or makes the following...",
                              description: ["Our aim at Afro'Fit is to bring the spirit of Africa into every aspect of your life, from what you wear to how you live. We blend beauty, tradition, and everyday function to create handcrafted pieces that elevate both your personal style and your living spaces.", "Explore our diverse craft categories below and if you're seeking something uniquely your's, reach out — we’ll be honored to bring your inspiration to life."],
                              link: "Get in touch"
                       },
