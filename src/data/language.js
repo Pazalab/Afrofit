@@ -21,7 +21,7 @@ export const french = {
                     description: {
                          spans: [
                               "Confort",
-                              "fabriqué à la main",
+                              "Fait-main",
                               "Héritage"
                          ],
                          text: "AFRO’FIT offre une superbe collection Africaine de vêtements d’intérieur pour tous, déco maison et une variété d’accessoires customisés à la main, qui célèbrent votre Héritage. Élevez votre style et votre espace avec des pièces uniques et confortables qui racontent votre histoire. "
@@ -29,7 +29,7 @@ export const french = {
                },
               benefits: {
                      intro: {
-                           title: "Afro’fit Parce Que",
+                           title: "Afro’fit Parce Que...",
                            description: "Les racines, l’héritage et ses richesses font notre identité. Conscients de cette identité, AFRO’FIT opte pour le « fait-main » mettant en avant le savoir-faire des artisans Africains. 80-90% de confections et tissages sont fait à la main, à base de matériaux africains tout en s’adaptant aux tendances contemporaines. La conception de chaque pièce porte votre personnalité, elle nait de vos préférences…de « votre touche » et nous y assurons fiabilité, confort, chaleur et durabilité. "
                      },
                      listings: {
@@ -38,24 +38,24 @@ export const french = {
                                text: "Chaque pièce est fabriquée par de véritables artisans — et non par des machines — avec compétence, soin et profondeur culturelle tissés dans chaque détail."
                           },
                           two: {
-                               title: "Une qualité sans compromis",
-                               text: "Afro'Fit propose des pièces intemporelles conçues pour durer."
+                               title: " Un travail de qualité",
+                               text: "De belles finitions, du matériel africain, le respect des délais annoncés et des coûts abordables pour des pièces uniques durables, fiables et à votre image."
                           },
                           three: {
                                 title: "Ici quand vous avez besoin de nous",
-                                text: "Attendez-vous à un accompagnement attentif et humain à chaque étape du processus."
+                                text: "Vous écoutez, vous lire nous inspire, venez comme vous êtes. Nous sommes prêts à répondre à vos besoins."
                           },
                           four: {
                                title: "Créations sur mesure",
-                               text: "Il n’existe pas de solution universelle : tout est conçu pour refléter votre goût, votre histoire et votre style uniques."
+                               text: "Vous êtes au cœur de notre inspiration : nos articles sont conçus pour refléter votre goût, votre histoire et votre style uniques."
                           },
                           five: {
                                title: "Parcours collaboratif",
                                text: "Nous écoutons, co-créons et donnons vie à votre vision."
                           },
                         six: {
-                               title: "Là où la créativité rencontre le but",
-                               text: "Nos créations équilibrent l'expression africaine audacieuse avec la fonctionnalité quotidienne : une beauté que vous pouvez porter, dans laquelle vous pouvez vivre et en laquelle vous pouvez croire.."
+                               title: "Nos capacités au service de vos envies",
+                               text: "Nos créations équilibrent l'expression de votre imagination  du “Nyanga” à l’Africaine et le savoir-faire de nos professionnels artisans. Des confections audacieuses aux fonctionnalités quotidiennes : une beauté que vous pouvez porter, dans laquelle vous pouvez vivre et vous identifier."
                           }
                      }
                },
@@ -194,7 +194,7 @@ export const french = {
                },
               faqs: {
                     intro: {
-                          title: "Tous les détails, expliqués",
+                          title: "Des questions? Plus d’infos?",
                           description: "Trouvez des réponses rapides aux questions les plus courantes sur nos services et processus."
                     },
                     listings: [
@@ -300,24 +300,24 @@ export const english = {
                                text: "Each piece is made by real artisans — not machines — with skill, care, and cultural depth woven into every detail."
                           },
                           two: {
-                               title: "Uncomprimising Quality",
-                               text: "Afro'Fit delivers timeless pieces designed to last."
+                               title: "Quality Work",
+                               text: "Beautiful finishes, African materials, respect for announced deadlines and affordable costs for unique pieces that are durable, reliable and reflect your image."
                           },
                           three: {
                                 title: "Here when you need us",
-                                text: "Expect attentive, human support every step of the way."
+                                text: "Hearing from you inspires us.Come as you are, we are ready for your questions."
                           },
                           four: {
                                title: "Tailored Creations",
-                               text: "No one-size-fits-all — everything is shaped to reflect your unique taste, story and style."
+                               text: "You are at the heart of our inspiration: our items are designed to reflect your unique taste, story and style."
                           },
                           five: {
                                title: "Collaborative Journey",
                                text: "We listen, co-create, and bring your vision to life."
                           },
                        six: {
-                               title: "Where Creativity meets Purpose",
-                               text: "Our designs balance bold African expression with everyday function, beauty you can wear, live in and believe in."
+                               title: "Our capabilities at the service of your desires",
+                               text: "Our creations balance the expression of your African Nyanga imagination with the craftsmanship of our professional artisans. From bold creations to everyday functionality, we create beauty you can wear, live in, and identify with."
                           }
                      }
                },
@@ -456,7 +456,7 @@ export const english = {
                },
                faqs: {
                     intro: {
-                          title: "All the Details, Explained",
+                          title: "Questions? More info?",
                           description: "Find quick answers to the most common questions about our services and process."
                     },
                     listings: [

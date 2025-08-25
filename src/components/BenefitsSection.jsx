@@ -1,5 +1,5 @@
-import quality from "../assets/quality.jpg"
-import comms from "../assets/comms.png"
+import quality from "../assets/quality2.jpg"
+import comms from "../assets/children.jpg"
 import picture1 from "../assets/picture1.jpg"
 import picture2 from "../assets/picture2.jpg"
 import { useContext } from "react"

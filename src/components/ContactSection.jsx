@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import contact from "../assets/contact.jpg"
+import contact from "../assets/contact2.jpg"
 import { languageContext } from "./common/languageContext"
 const ContactSection = () => {
     const [ language ] = useContext(languageContext);
@@ -36,7 +36,7 @@ const ContactSection = () => {
                                             <img src={contact} alt="" />
                                             <div className="covershadow">
                                                         <div className="covershadow-texts">
-                                                                   <h3>+254 7123 45678</h3>
+                                                                   <h3>+237 655 219 850</h3>
                                                                    <h3>hello@afrofit.africa</h3>
                                                         </div>
                                             </div>
