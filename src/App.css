@@ -245,7 +245,7 @@ header.scrolled{
 .footer{
      padding: 30px 0;
      border-top: 1px solid rgba(181, 173, 159, 0.2);
-     background: #1e0e05;
+     background: var(--main-color);
 }
 .footer-content{
      display: flex;

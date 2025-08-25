@@ -14,6 +14,10 @@ import product11 from "../assets/products/prod18.jpg"
 import product13 from "../assets/products/prod20.jpg"
 import product14 from "../assets/products/prod5.png"
 import product15 from "../assets/products/prod23.jpg"
+import product16 from "../assets/products/prod24.jpg"
+import product17 from "../assets/products/prod25.png"
+import product18 from "../assets/products/prod26.jpg"
+import product19 from "../assets/products/prod27.png"
 import { useContext } from "react"
 import { languageContext } from "./common/languageContext"
 const Showcase = () => {
@@ -48,9 +52,13 @@ const Showcase = () => {
                                               <img data-aos="zoom-in" src={product9} alt="" />
                                               <img data-aos="zoom-in" src={product10} alt="" />
                                               <img data-aos="zoom-in" src={product11} alt="" />
-                                              <img src={"product"} alt="" />
+                                              <img src={product19} data-aos="zoom-in" alt="" />
                                               <img data-aos="zoom-in" src={product15} alt="" />
                                               <img className="last" data-aos="zoom-in" src={product13} alt="" />
+                                              <img data-aos="zoom-in" src={product16} alt="" />
+                                              <img data-aos="zoom-in" src={product17} alt="" />
+                                              <img data-aos="zoom-in" src={product18} alt="" />
+                                             
                                      </div>
                            </div>
                </div>

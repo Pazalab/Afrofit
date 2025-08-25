@@ -1,4 +1,3 @@
-import quality from "../assets/quality2.jpg"
 import comms from "../assets/children.jpg"
 import picture1 from "../assets/picture1.jpg"
 import picture2 from "../assets/picture2.jpg"
@@ -27,7 +26,7 @@ const BenefitsSection = () => {
                                                                 <div className="tripple-grid-column" data-aos="zoom-in-down">
                                                                          <h3>{ language.data.pages.home.benefits.listings.two.title}</h3>
                                                                          <div className="grid-column-split">
-                                                                                  <img src={quality} alt="" />
+                                                                                  {/* <img src={quality} alt="" /> */}
                                                                                    <p>{ language.data.pages.home.benefits.listings.two.text}</p>
                                                                          </div>
                                                                 </div>
