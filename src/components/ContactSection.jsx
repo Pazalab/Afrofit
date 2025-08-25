@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import contact from "../assets/contact3.jpg"
+import contact from "../assets/contact4.jpg"
 import { languageContext } from "./common/languageContext"
 const ContactSection = () => {
     const [ language ] = useContext(languageContext);

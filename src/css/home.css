@@ -1075,7 +1075,7 @@
 }
 
 .contact-form-column{
-     background: linear-gradient(rgba(188, 159, 126, 0.2),rgba(151, 128, 101, 0.2), #96421542);
+     background: linear-gradient(rgba(188, 159, 126, 0.2),rgba(151, 128, 101, 0.2));
      padding: 80px;
      border-radius: 20px;
      -webkit-border-radius: 20px;
@@ -1119,7 +1119,7 @@
       font-size: 18px;
       background: transparent;
       border-bottom: 1px solid rgba(198, 180, 167, 0.134);
-      color: gainsboro;
+      color: white;
 }
 .form-control:focus,
 textarea:focus{
@@ -1173,7 +1173,7 @@ textarea::placeholder{
       width: 100%;
       height: 100%;
       top: 0;
-      background: linear-gradient(transparent, #1e0e0562, #964215d6);
+      background: linear-gradient(transparent, #79391334, #964215b7);
       padding: 30px;
       border-radius: 20px;
       display: flex;
